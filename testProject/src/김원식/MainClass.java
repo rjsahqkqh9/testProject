@@ -162,6 +162,7 @@ public class MainClass extends JFrame implements ActionListener {
 		if(e.getActionCommand().equals("구구단보기")) {
 			String dan = JOptionPane.showInputDialog("몇단을 보시겠습니까?");
 			ta.setText(pt1.getGugudan(Integer.parseInt(dan)));
+			System.out.println("asdf");
 		}
 	}
 }
